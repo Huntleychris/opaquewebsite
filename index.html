@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url('opaquewebsite/OpaqueRectangle.png'); /* Background image link */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .links a:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1></h1>
+    <div class="links">
+        <a href="consulting.html">Consulting</a>
+        <a href="tools.html">Tools</a>
+        <a href="advocacy.html">Advocacy</a>
+    </div>
+</div>
+</body>
+</html>
