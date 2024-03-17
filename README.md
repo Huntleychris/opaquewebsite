@@ -1,0 +1,2 @@
+# opaquewebsite
+Company static webpages
